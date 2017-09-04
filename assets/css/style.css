@@ -1,0 +1,142 @@
+/* Resets */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+*{
+    box-sizing: border-box;
+}
+
+body {
+	line-height: 1;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background: #fbfbfb;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+input{
+    outline: none;
+}
+
+input:focus,
+input:active{
+    box-shadow: inset 0px -1px 0px #a5a5a5!important;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+}
+
+/* Site Style */
+
+#container{
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 10px;
+}
+#container .logo{
+    width: 300px;
+    height: 58px;
+}
+
+/* Form */
+#container .form{
+    float: left;
+    background: #fbcc48;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#container .form label{
+    float: left;
+    width: 100%;
+}
+
+#container .form input{
+    float: left;
+    background: #fff;
+    height: 29px;
+    line-height: 21px;
+    padding: 0 6px;
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #3e3d3d;
+}
+#container .form .field{
+    float: left;
+    width: 20%;
+    padding-right: 15px;
+}
+
+#container #calc{
+    box-shadow: 0 2px 0 0 #c26e0b;
+    border-radius: 4px;
+    background-color: #d87e01;
+    font-size: 18px;
+    color: #FFF;
+    padding: 4px 25px;
+    border: 0;
+    position: relative;
+    top: 19px;
+}
+ 
+/* Message */ 
+#container #message{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    color: #585757;
+    font-size: 13px;
+}
+#container #message .msg{
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#container #message .success{
+    background: #72ae2d;
+}
+
+#container #message .alert{
+    background: #f06534;
+}
+
+#container #message span{
+    font-size: 22px;
+    font-weight: 400;
+    float: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.38);
+    padding: 0 18px 0 8px;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+}
